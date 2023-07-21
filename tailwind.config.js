@@ -2,7 +2,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-
+    color:{
+      'reds':'#FFF3E3',
+      'coffee':{
+        50:"#FFF3E3",
+      }
+    },
     },
     container:{
       center: true,
@@ -14,7 +19,6 @@ module.exports = {
     animation: {
       slideDown: 'slideDown .4s ease-in-out ',
     },
-
   },
   plugins: [],
 }
