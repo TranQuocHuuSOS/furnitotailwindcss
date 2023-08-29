@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
+    <title>Product comparison</title>
     <link rel="stylesheet" href="../css/style.css"/>
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link href="../dist/output.css" type="text/css" rel="stylesheet">
@@ -18,8 +18,8 @@
 </head>
 <body>
     <div id="roof">
-        <div class="container ">
-        <!-- start header-->
+        <div class="container">
+             <!-- start header-->
         <div class="h-[100px] bg-white w-[100%]">
             <div class="py-7 pl-[54px] pr-[100px] grid grid-cols-3  items-center  mx-auto  relative">
             <div class="cursor-pointer">
@@ -153,285 +153,200 @@
         </div>
         </div>
         <!-- end header-->
-        <main class="">
-            <div class="bg-opacity-75 h-[316px] md:w-full bg-[url('https://www.rentcafe.com/blog/wp-content/uploads/sites/62/2023/03/apartment-space-in-white-and-beige-color.jpg?width=380')] bg-cover items-center  justify-center bg-no-repeat bg-center bg-fixed w-[100vw]  left-[calc(-50vw+50%)]">
-                <div class="flex absoluted items-end justify-center ">
-                    <div class="mt-[121px]">
-                        <p class="font-medium text-[48px]">Shop</p>
-                        <div class="flex items-center justify-center gap-2 cursor-pointer">
-                            <a class="font-medium text-[16px]cursor-pointer hover:text-[#9F9F9F] ">Home</a>
-                            <a class="cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
-                            </a>
-                            <a class="font-light text-[14px]">Shop</a>
-                        </div>
-                       
+        <div class="bg-opacity-75 h-[316px] md:w-full bg-[url('https://www.rentcafe.com/blog/wp-content/uploads/sites/62/2023/03/apartment-space-in-white-and-beige-color.jpg?width=380')] bg-cover items-center  justify-center bg-no-repeat bg-center bg-fixed w-[100vw]  left-[calc(-50vw+50%)]">
+            <div class="flex absoluted items-end justify-center ">
+                <div class="mt-[61px]">
+                    <div class="flex items-center justify-center">
+                        <img src="../assets/images/logo.png" alt="">
                     </div>
+                    <p class="font-medium text-[48px]">Product Comparison</p>
+                    <div class="flex items-center justify-center gap-2 cursor-pointer">
+                        <a class="font-medium text-[16px]cursor-pointer hover:text-[#9F9F9F] ">Home</a>
+                        <a class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+                        </a>
+                        <a class="font-light text-[14px]">Comparison</a>
+                    </div>
+                   
                 </div>
-            </div> 
-            <div class="flex h-[100px] bg-[#F9F1E7]">
-                <div class="w-[50%] flex items-center justify-center">
-                    <div class="flex gap-8 mr-8">
-                        <div class="flex items-center justify-center gap-4 cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z"/></svg>
-                            <p class="font-regular text-[20px]">Filter</p>
-                        </div>
-                        <div class="flex items-center justify-center gap-2 cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z"/></svg>
-                        </div>
-                        <div class="flex items-center justify-center gap-2 cursor-pointer">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M32 32C14.3 32 0 46.3 0 64v96c0 17.7 14.3 32 32 32s32-14.3 32-32V96h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H64V352zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H320zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c17.7 0 32-14.3 32-32V352z"/></svg>
-                        </div>
+            </div>
+        </div> 
+
+        <div class="main">
+            <div class="mx-[54px]">
+                <div class="flex gap-[100px]">
+                    <div class="mt-[55px]">
+                        <p class="font-medium text-[28px] w-[223px]">Go to Product page for more Products</p>
+                        <button class="mt-[21px] border-b-2 font-medium text-[20px]">View More</button>
                     </div>
-                    <div class="border-l-2">
-                        <a class="ml-8 font-regular text-[16px]">Showing 1–16 of 32 results</a>
-                        
+                    <div class="mt-[34px]">
+                        <div class="flex bg-[#FFF3E3] items-center justify-center w-[280px] h-[177px] rounded">
+                            <img src="../assets/images/sofa 3.png" alt="">
+                        </div>
+                        <p class="mt-[16px] font-medium text-[24px]">Asgaard Sofa</p>
+                        <span class="mt-[6px] font-medium text-[18px]">Rs. 250,000.00</span>
+                        <p class="flex items-center justify-center mt-[10px]">
+                            <span>4.7</span>
+                            <span class="mr-2">
+                                <svg width="124" height="20" viewBox="0 0 124 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z" fill="#FFC700"/>
+                                    <path d="M36 1L39 7L45 7.75L40.88 12.37L42 19L36 16L30 19L31.13 12.37L27 7.75L33 7L36 1Z" fill="#FFC700"/>
+                                    <path d="M62 1L65 7L71 7.75L66.88 12.37L68 19L62 16L56 19L57.13 12.37L53 7.75L59 7L62 1Z" fill="#FFC700"/>
+                                    <path d="M88 1L91 7L97 7.75L92.88 12.37L94 19L88 16L82 19L83.13 12.37L79 7.75L85 7L88 1Z" fill="#FFC700"/>
+                                    <path d="M111.157 7.0125L104.801 7.9375L109.401 12.4188L108.313 18.75L114.001 15.7625V1.25L111.157 7.0125Z" fill="#FFC700"/>
+                                </svg>                                  
+                            </span >
+                            <span class="px-2 border-l-2 font-regular text-[13px] text-[#9F9F9F]">204 Review</span>
+                        </p>
                     </div>
-                </div>
-                <div class="w-[50%] flex items-center justify-center gap-4">
-                    <div class="flex gap-4">
-                        <p class="font-regular text-[20px] flex items-center justify-center">Show</p>
-                        <span class="h-[55px] w-[55px] bg-white flex items-center justify-center text-[#9F9F9F]">16</span>
+                    <div class="mt-[34px]">
+                        <div class="flex bg-[#FFF3E3] items-center justify-center w-[280px] h-[177px] rounded">
+                            <img src="../assets/images/sofa 3.png" alt="">
+                        </div>
+                        <p class="mt-[16px] font-medium text-[24px]">Asgaard Sofa</p>
+                        <span class="mt-[6px] font-medium text-[18px]">Rs. 250,000.00</span>
+                        <p class="flex items-center justify-center mt-[10px]">
+                            <span>4.7</span>
+                            <span class="mr-2">
+                                <svg width="124" height="20" viewBox="0 0 124 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z" fill="#FFC700"/>
+                                    <path d="M36 1L39 7L45 7.75L40.88 12.37L42 19L36 16L30 19L31.13 12.37L27 7.75L33 7L36 1Z" fill="#FFC700"/>
+                                    <path d="M62 1L65 7L71 7.75L66.88 12.37L68 19L62 16L56 19L57.13 12.37L53 7.75L59 7L62 1Z" fill="#FFC700"/>
+                                    <path d="M88 1L91 7L97 7.75L92.88 12.37L94 19L88 16L82 19L83.13 12.37L79 7.75L85 7L88 1Z" fill="#FFC700"/>
+                                    <path d="M111.157 7.0125L104.801 7.9375L109.401 12.4188L108.313 18.75L114.001 15.7625V1.25L111.157 7.0125Z" fill="#FFC700"/>
+                                </svg>                                  
+                            </span >
+                            <span class="px-2 border-l-2 font-regular text-[13px] text-[#9F9F9F]">204 Review</span>
+                        </p>
                     </div>
-                    <div class="flex gap-4">
-                        <p class="font-regular text-[20px] flex items-center justify-center">Short by</p>
-                        <span class="h-[55px] w-[188px] bg-white flex items-center justify-center text-[#9F9F9F]">Default</span>
+                    <div class="mt-[55px] w-[242px] h-[79px]">
+                        <p class="font-medium text-[28px] w-[223px]">Add A Product</p>
+                        <select data-te-select-init class="h-[39px] w-[242px] bg-[#B88E2F] rounded-[6px] text-white">
+                            <option value="">Choose a product</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                            <option value="6">Six</option>
+                            <option value="7">Seven</option>
+                            <option value="8">Eight</option>
+                        </select>
                     </div>
                 </div>
             </div>
-             <!--start Our products-->
-             <div class="lg:mx-[120px] mx-2 mt-[56px]">
-                <div class="items-center grid grid-cols-1 lg:grid-cols-4 gap-8 mt-[32px]">
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image1.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">New</div>
+            <div class="mt-[64px] mx-[54px] border-t-2 flex">
+                <div class="ml-[96px] border-r-2 pr-[40px] w-[20%]">
+                    <div>
+                    <p class="font-medium text-[28px] mt-[42px]">General</p>
+                    <ul>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Sales Package</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Model Number</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Secondary Material</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Configuration</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Upholstery Material</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Upholstery Color</li>
+                    </ul>
                     </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/furniture5.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">New</div>
+                    <div>
+                    <p class="font-medium text-[28px] mt-[96px]">Product </p>
+                    <ul>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Filling Material</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Finish Type</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Adjustable Headrest</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Maximum Load Capacity</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Origin of Manufacture</li>
+                    </ul>
                     </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image2.webp" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-red-500 bg-red-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">-50%</div>
+                    <div>
+                    <p class="font-medium text-[28px] mt-[96px]">Dimensions</p>
+                    <ul>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Width</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Height</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Depth</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Weight</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Seat Height</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Leg Height</li>
+                    </ul>
                     </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image3.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">New</div>
+                    <div>
+                    <p class="font-medium text-[28px] mt-[42px]">Warranty</p>
+                    <ul>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Warranty Summary</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Warranty Service Type</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Covered in Warranty</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Not Covered in Warranty</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Domestic Warranty</li>
+                    </ul>
                     </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image4.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-red-500 bg-red-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">-50%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/furniture5.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">70%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image2.webp" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">50%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/furniture5.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-red-500 bg-red-800  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">-90%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image1.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">New</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/furniture5.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">New</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image2.webp" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-red-500 bg-red-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">-50%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image3.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">New</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image4.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-red-500 bg-red-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">-50%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/furniture5.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">70%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/image2.webp" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-green-500 bg-green-600  w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">50%</div>
-                    </div>
-                    </a>
-                    <a href="Detail_product.html">
-                    <div href="Detail_product.html" class="items-center relative bg-[#F4F5F7]">
-                        <img class="w-full lg:h-[301px] h-[400px]" src="../assets/images/furniture5.jpg" alt="">
-                        <div class="mx-2">
-                        <div class="font-semibold text-[24px]">Syltherine</div>
-                        <div class="font-medium text-[16px]">Stylish cafe chair</div>
-                        <div class="flex items-center ">
-                            <span class="font-semibold text-[20px]">Rp 2.500.000</span>
-                            <del class="mx-8 text-gray-400 font-regular text-[16px]">Rp 2.500.000</del>
-                        </div>
-                        </div>
-                        <div class="absolute flex items-center justify-center hover:text-white hover:bg-red-500 bg-red-800 w-[48px] h-[48px] rounded-full top-8 ml-[80%]  ">-90%</div>
-                    </div>
-                    </a>
                 </div>
-                <div class="flex items-center justify-center text-center ml-[35%] mt-[40px] w-[392px] h-[90px] gap-[38px]">
-                    <div class="w-[60px] h-[60px] rounded-[10px] hover:bg-[#f6bf7b] bg-[#f1b060] flex items-center justify-center cursor-pointer">1</div>
-                    <div class="w-[60px] h-[60px] rounded-[10px] hover:bg-[#f1b060] bg-[#F9F1E7] flex items-center justify-center cursor-pointer">2</div>
-                    <div class="w-[60px] h-[60px] rounded-[10px] hover:bg-[#f1b060] bg-[#F9F1E7] flex items-center justify-center cursor-pointer">3</div>
-                    <div class="w-[98px] h-[60px] rounded-[10px] hover:bg-[#f1b060] bg-[#F9F1E7] flex items-center justify-center cursor-pointer">Next</div>
+                <div class="border-r-2 px-[40px] w-[20%]">
+                    <ul class="mt-[110px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">1 sectional sofa</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">TFCBLIGRBL6SRHS</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Solid Wood</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">L-shaped</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Fabric + Cotton</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Bright Grey & Lion</li>
+                    </ul>
+                    <ul class="mt-[170px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Foam</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Bright Grey & Lion</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">No</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">280 KG</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">India</li>    
+                    </ul>
+                    <ul class="mt-[160px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">265.32 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">76 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">167.76 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">45 KG</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">41.52 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">5.46 cm</li>
+                    </ul>
+                    <ul class="mt-[96px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">1 Year Manufacturing Warranty</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Warranty Against Manufacturing Defect</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">1 Year</li>
+                       
+                    </ul>
+                    <button class="w-[215px] h-[64px] hover:bg-[#f9c17d] bg-[#f9aa4b] mb-0 mt-[60px] hover:text-black text-white ">Add To Cart</button>
+                </div>
+                <div class="border-r-2 px-[40px] w-[20%]">
+                    <ul class="mt-[110px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">1 Three Seater, 2 Single Seater</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">DTUBLIGRBL568</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Solid Wood</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">L-shaped</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Fabric + Cotton</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Bright Grey & Lion</li>
+                    </ul>
+                    <ul class="mt-[140px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Matte</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Bright Grey & Lion</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">yes</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">300 KG</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">India</li>
+                    </ul>
+                    <ul class="mt-[160px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">265.32 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">76 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">167.76 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">65 KG</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">41.52 cm</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">5.46 cm</li>
+                    </ul>
+                    <ul class="mt-[96px]">
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">1.2 Year Manufacturing Warranty</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Warranty of the product is limited to manufacturing defects only.</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Warranty of the product is limited to manufacturing defects only.</li>
+                        <li class="font-regular text-[20px] outline-none mt-[28px]">Warranty of the product is limited to manufacturing defects only.</li>
+
+                    </ul>
+                    <button class="w-[215px] h-[64px] hover:bg-[#f9c17d] bg-[#f9aa4b] mb-0 hover:text-black text-white ">Add To Cart</button>
                 </div>
             </div>
             <!-- end our products-->
@@ -548,7 +463,7 @@
                     <p>2023 furino. All rights reverved</p>
                 </div>
             </div>
-        </main>
+        </div>
         </div>
     </div>
 </body>
